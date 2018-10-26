@@ -1,0 +1,160 @@
+package com.zl.dto;
+
+/**
+ * @author zhuolin
+ * @program: cooperator
+ * @date 2018/10/25
+ * @description: ${description}
+ **/
+public class UserDTO {
+    /**
+     * 用户名称
+     */
+    private String name;
+    /**
+     * 用户编码
+     */
+    private String code;
+    /**
+     * 性别
+     */
+    private String sex;
+    /**
+     * 生日
+     */
+    private String birthday;
+    /**
+     * 文化程度
+     */
+    private String education;
+    /**
+     * 毕业院校
+     */
+    private String university;
+    /**
+     * 专业
+     */
+    private String professional;
+    /**
+     * 联系方式
+     */
+    private String phone;
+    /**
+     * 项目id
+     */
+    private Long siteId;
+    /**
+     * 图片id
+     */
+    private Long pictureId;
+    /**
+     * 邮箱
+     */
+    private String mail;
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getEducation() {
+        return education;
+    }
+
+    public void setEducation(String education) {
+        this.education = education;
+    }
+
+    public String getUniversity() {
+        return university;
+    }
+
+    public void setUniversity(String university) {
+        this.university = university;
+    }
+
+    public String getProfessional() {
+        return professional;
+    }
+
+    public void setProfessional(String professional) {
+        this.professional = professional;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public Long getSiteId() {
+        return siteId;
+    }
+
+    public void setSiteId(Long siteId) {
+        this.siteId = siteId;
+    }
+
+    public Long getPictureId() {
+        return pictureId;
+    }
+
+    public void setPictureId(Long pictureId) {
+        this.pictureId = pictureId;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    @Override
+    public String toString() {
+        return "UserDTO{" +
+                "name='" + name + '\'' +
+                ", code='" + code + '\'' +
+                ", sex='" + sex + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", education='" + education + '\'' +
+                ", university='" + university + '\'' +
+                ", professional='" + professional + '\'' +
+                ", phone='" + phone + '\'' +
+                ", siteId=" + siteId +
+                ", pictureId=" + pictureId +
+                ", mail='" + mail + '\'' +
+                '}';
+    }
+}
